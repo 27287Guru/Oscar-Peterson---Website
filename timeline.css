@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000;
+    color: #fff;
+    overflow-x: hidden;
+    font-family: "Lexend", sans-serif;
+}
+.Header{
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    font-size: 3rem;
+    box-shadow: 10px 5px 10px rgba(0,0,0,0.5);
+}
+.title{
+    box-shadow: 10px 5px 10px rgba(0,0,0,0.5);
+    padding: 1rem 0rem 1rem 0.7rem;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    color: #fff;
+    font-size: 1.3rem;
+    background-color: #8cc751;
+    margin: 0 0.5rem;
+}
+.year{
+    padding: 0.2rem 0.,8rem;
+    color: #fff;
+    font-size: 1.5rem;
+}
+#Timeline ul{
+    padding: 50px 0;
+}
+#Timeline ul li{
+    list-style: none;
+    position: relative;
+    width: 7px;
+    margin: 0 auto;
+    padding-top: 50px;
+    background-color: #fff;
+}
+#Timeline ul li .container{
+    position: relative;
+    bottom: 0;
+    width: 450px;
+    background-color: #8cc751;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    border-radius: 5px;
+}
+#Timeline p{
+    padding: 1rem 0rem 1rem 1rem;
+    color: #000;
+}
+#Timeline ul li .container{
+    left: 50px;
+}
+.material-symbols-outlined{
+    padding: 30px;
+    color: #FFFF00;
+    
+}
